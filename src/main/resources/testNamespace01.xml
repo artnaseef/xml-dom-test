@@ -1,0 +1,8 @@
+<activity:activity xmlns:activity="http://some.activity.xsd"
+                   xmlns:xxx="http://xxx.yyy.xsd">
+    <specification>
+        <xxx:group>
+            <xxx:item uri="a:b:c" />
+        </xxx:group>
+    </specification>
+</activity:activity>
