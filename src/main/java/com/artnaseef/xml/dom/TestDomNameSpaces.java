@@ -85,7 +85,8 @@ public class TestDomNameSpaces {
     while (cur < children.getLength()) {
       System.out.println(prefix + "tag-name=" + ele.getTagName() +
                          ", ns-uri=" + ele.getNamespaceURI() +
-                         ", local-name=" + ele.getLocalName()
+                         ", local-name=" + ele.getLocalName() +
+                         ", node-name=" + ele.getNodeName()
       );
 
       Node childNode = children.item(cur);
